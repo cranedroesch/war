@@ -42,9 +42,109 @@ game.play()
     Adding pot [13, 10] to pile <queue.Queue object at 0x7f9920107d90> of size 26
     Turn end status: turn 2 p1: 28, p2: 24
     Starting turn 3
-    
-    snip
-
+    11, 5, p1 wins [11, 5]
+    Adding pot [11, 5] to pile <queue.Queue object at 0x7f9920107d90> of size 27
+    Turn end status: turn 3 p1: 29, p2: 23
+    Starting turn 4
+    13, 2, p1 wins [13, 2]
+    Adding pot [13, 2] to pile <queue.Queue object at 0x7f9920107d90> of size 28
+    Turn end status: turn 4 p1: 30, p2: 22
+    Starting turn 5
+    5, 2, p1 wins [5, 2]
+    Adding pot [5, 2] to pile <queue.Queue object at 0x7f9920107d90> of size 29
+    Turn end status: turn 5 p1: 31, p2: 21
+    Starting turn 6
+    7, 3, p1 wins [7, 3]
+    Adding pot [7, 3] to pile <queue.Queue object at 0x7f9920107d90> of size 30
+    Turn end status: turn 6 p1: 32, p2: 20
+    Starting turn 7
+    8, 4, p1 wins [8, 4]
+    Adding pot [8, 4] to pile <queue.Queue object at 0x7f9920107d90> of size 31
+    Turn end status: turn 7 p1: 33, p2: 19
+    Starting turn 8
+    6, 1, p1 wins [6, 1]
+    Adding pot [6, 1] to pile <queue.Queue object at 0x7f9920107d90> of size 32
+    Turn end status: turn 8 p1: 34, p2: 18
+    Starting turn 9
+    2, 13, p2 wins [2, 13]
+    Adding pot [2, 13] to pile <queue.Queue object at 0x7f9920107f10> of size 17
+    Turn end status: turn 9 p1: 33, p2: 19
+    Starting turn 10
+    11, 7, p1 wins [11, 7]
+    Adding pot [11, 7] to pile <queue.Queue object at 0x7f9920107d90> of size 32
+    Turn end status: turn 10 p1: 34, p2: 18
+    Starting turn 11
+    11, 4, p1 wins [11, 4]
+    Adding pot [11, 4] to pile <queue.Queue object at 0x7f9920107d90> of size 33
+    Turn end status: turn 11 p1: 35, p2: 17
+    Starting turn 12
+    6, 13, p2 wins [6, 13]
+    Adding pot [6, 13] to pile <queue.Queue object at 0x7f9920107f10> of size 16
+    Turn end status: turn 12 p1: 34, p2: 18
+    Starting turn 13
+    6, 3, p1 wins [6, 3]
+    Adding pot [6, 3] to pile <queue.Queue object at 0x7f9920107d90> of size 33
+    Turn end status: turn 13 p1: 35, p2: 17
+    Starting turn 14
+    8, 9, p2 wins [8, 9]
+    Adding pot [8, 9] to pile <queue.Queue object at 0x7f9920107f10> of size 16
+    Turn end status: turn 14 p1: 34, p2: 18
+    Starting turn 15
+    12, 10, p1 wins [12, 10]
+    Adding pot [12, 10] to pile <queue.Queue object at 0x7f9920107d90> of size 33
+    Turn end status: turn 15 p1: 35, p2: 17
+    Starting turn 16
+    9, 1, p1 wins [9, 1]
+    Adding pot [9, 1] to pile <queue.Queue object at 0x7f9920107d90> of size 34
+    Turn end status: turn 16 p1: 36, p2: 16
+    Starting turn 17
+    12, 8, p1 wins [12, 8]
+    Adding pot [12, 8] to pile <queue.Queue object at 0x7f9920107d90> of size 35
+    Turn end status: turn 17 p1: 37, p2: 15
+    Starting turn 18
+    5, 3, p1 wins [5, 3]
+    Adding pot [5, 3] to pile <queue.Queue object at 0x7f9920107d90> of size 36
+    Turn end status: turn 18 p1: 38, p2: 14
+    Starting turn 19
+    8, 1, p1 wins [8, 1]
+    Adding pot [8, 1] to pile <queue.Queue object at 0x7f9920107d90> of size 37
+    Turn end status: turn 19 p1: 39, p2: 13
+    Starting turn 20
+    6, 9, p2 wins [6, 9]
+    Adding pot [6, 9] to pile <queue.Queue object at 0x7f9920107f10> of size 12
+    Turn end status: turn 20 p1: 38, p2: 14
+    Starting turn 21
+    1, 10, p2 wins [1, 10]
+    Adding pot [1, 10] to pile <queue.Queue object at 0x7f9920107f10> of size 13
+    Turn end status: turn 21 p1: 37, p2: 15
+    Starting turn 22
+    5, 7, p2 wins [5, 7]
+    Adding pot [5, 7] to pile <queue.Queue object at 0x7f9920107f10> of size 14
+    Turn end status: turn 22 p1: 36, p2: 16
+    Starting turn 23
+    2, 4, p2 wins [2, 4]
+    Adding pot [2, 4] to pile <queue.Queue object at 0x7f9920107f10> of size 15
+    Turn end status: turn 23 p1: 35, p2: 17
+    Starting turn 24
+    3, 11, p2 wins [3, 11]
+    Adding pot [3, 11] to pile <queue.Queue object at 0x7f9920107f10> of size 16
+    Turn end status: turn 24 p1: 34, p2: 18
+    Starting turn 25
+    12, 4, p1 wins [12, 4]
+    Adding pot [12, 4] to pile <queue.Queue object at 0x7f9920107d90> of size 33
+    Turn end status: turn 25 p1: 35, p2: 17
+    Starting turn 26
+    7, 12, p2 wins [7, 12]
+    Adding pot [7, 12] to pile <queue.Queue object at 0x7f9920107f10> of size 16
+    Turn end status: turn 26 p1: 34, p2: 18
+    Starting turn 27
+    9, 13, p2 wins [9, 13]
+    Adding pot [9, 13] to pile <queue.Queue object at 0x7f9920107f10> of size 17
+    Turn end status: turn 27 p1: 33, p2: 19
+    Starting turn 28
+    10, 2, p1 wins [10, 2]
+    Adding pot [10, 2] to pile <queue.Queue object at 0x7f9920107d90> of size 32
+    Turn end status: turn 28 p1: 34, p2: 18
     Starting turn 29
     WAR!!! 13, 13, pot [13, 13]
     WAR! Pot: [13, 13]
@@ -61,9 +161,115 @@ game.play()
     turn 29 p1: 39, p2: 13
     Turn end status: turn 29 p1: 39, p2: 13
     Starting turn 30
-    
-    snip
-    
+    2, 6, p2 wins [2, 6]
+    Adding pot [2, 6] to pile <queue.Queue object at 0x7f9920107f10> of size 12
+    Turn end status: turn 30 p1: 38, p2: 14
+    Starting turn 31
+    5, 1, p1 wins [5, 1]
+    Adding pot [5, 1] to pile <queue.Queue object at 0x7f9920107d90> of size 37
+    Turn end status: turn 31 p1: 39, p2: 13
+    Starting turn 32
+    2, 10, p2 wins [2, 10]
+    Adding pot [2, 10] to pile <queue.Queue object at 0x7f9920107f10> of size 12
+    Turn end status: turn 32 p1: 38, p2: 14
+    Starting turn 33
+    3, 5, p2 wins [3, 5]
+    Adding pot [3, 5] to pile <queue.Queue object at 0x7f9920107f10> of size 13
+    Turn end status: turn 33 p1: 37, p2: 15
+    Starting turn 34
+    WAR!!! 7, 7, pot [7, 7]
+    WAR! Pot: [7, 7]
+    Added 4 to pot; pot now [7, 7, 4]
+    Added 4 to pot; pot now [7, 7, 4, 4]
+    Added 8 to pot; pot now [7, 7, 4, 4, 8]
+    Added 2 to pot; pot now [7, 7, 4, 4, 8, 2]
+    Added 1 to pot; pot now [7, 7, 4, 4, 8, 2, 1]
+    Added 11 to pot; pot now [7, 7, 4, 4, 8, 2, 1, 11]
+    Added 6 to pot; pot now [7, 7, 4, 4, 8, 2, 1, 11, 6]
+    Added 3 to pot; pot now [7, 7, 4, 4, 8, 2, 1, 11, 6, 3]
+    6, 3: p1 wins pot [7, 7, 4, 4, 8, 2, 1, 11, 6, 3]
+    Adding pot [7, 7, 4, 4, 8, 2, 1, 11, 6, 3] to pile <queue.Queue object at 0x7f9920107d90> of size 32
+    turn 34 p1: 42, p2: 10
+    Turn end status: turn 34 p1: 42, p2: 10
+    Starting turn 35
+    7, 12, p2 wins [7, 12]
+    Adding pot [7, 12] to pile <queue.Queue object at 0x7f9920107f10> of size 9
+    Turn end status: turn 35 p1: 41, p2: 11
+    Starting turn 36
+    11, 7, p1 wins [11, 7]
+    Adding pot [11, 7] to pile <queue.Queue object at 0x7f9920107d90> of size 40
+    Turn end status: turn 36 p1: 42, p2: 10
+    Starting turn 37
+    4, 13, p2 wins [4, 13]
+    Adding pot [4, 13] to pile <queue.Queue object at 0x7f9920107f10> of size 9
+    Turn end status: turn 37 p1: 41, p2: 11
+    Starting turn 38
+    11, 9, p1 wins [11, 9]
+    Adding pot [11, 9] to pile <queue.Queue object at 0x7f9920107d90> of size 40
+    Turn end status: turn 38 p1: 42, p2: 10
+    Starting turn 39
+    6, 2, p1 wins [6, 2]
+    Adding pot [6, 2] to pile <queue.Queue object at 0x7f9920107d90> of size 41
+    Turn end status: turn 39 p1: 43, p2: 9
+    Starting turn 40
+    3, 6, p2 wins [3, 6]
+    Adding pot [3, 6] to pile <queue.Queue object at 0x7f9920107f10> of size 8
+    Turn end status: turn 40 p1: 42, p2: 10
+    Starting turn 41
+    12, 10, p1 wins [12, 10]
+    Adding pot [12, 10] to pile <queue.Queue object at 0x7f9920107d90> of size 41
+    Turn end status: turn 41 p1: 43, p2: 9
+    Starting turn 42
+    10, 2, p1 wins [10, 2]
+    Adding pot [10, 2] to pile <queue.Queue object at 0x7f9920107d90> of size 42
+    Turn end status: turn 42 p1: 44, p2: 8
+    Starting turn 43
+    1, 5, p2 wins [1, 5]
+    Adding pot [1, 5] to pile <queue.Queue object at 0x7f9920107f10> of size 7
+    Turn end status: turn 43 p1: 43, p2: 9
+    Starting turn 44
+    9, 3, p1 wins [9, 3]
+    Adding pot [9, 3] to pile <queue.Queue object at 0x7f9920107d90> of size 42
+    Turn end status: turn 44 p1: 44, p2: 8
+    Starting turn 45
+    WAR!!! 12, 12, pot [12, 12]
+    WAR! Pot: [12, 12]
+    Added 8 to pot; pot now [12, 12, 8]
+    Added 7 to pot; pot now [12, 12, 8, 7]
+    Added 3 to pot; pot now [12, 12, 8, 7, 3]
+    Added 4 to pot; pot now [12, 12, 8, 7, 3, 4]
+    Added 5 to pot; pot now [12, 12, 8, 7, 3, 4, 5]
+    Added 13 to pot; pot now [12, 12, 8, 7, 3, 4, 5, 13]
+    Added 8 to pot; pot now [12, 12, 8, 7, 3, 4, 5, 13, 8]
+    Added 3 to pot; pot now [12, 12, 8, 7, 3, 4, 5, 13, 8, 3]
+    8, 3: p1 wins pot [12, 12, 8, 7, 3, 4, 5, 13, 8, 3]
+    Adding pot [12, 12, 8, 7, 3, 4, 5, 13, 8, 3] to pile <queue.Queue object at 0x7f9920107d90> of size 39
+    turn 45 p1: 49, p2: 3
+    Turn end status: turn 45 p1: 49, p2: 3
+    Starting turn 46
+    1, 6, p2 wins [1, 6]
+    Adding pot [1, 6] to pile <queue.Queue object at 0x7f9920107f10> of size 2
+    Turn end status: turn 46 p1: 48, p2: 4
+    Starting turn 47
+    12, 1, p1 wins [12, 1]
+    Adding pot [12, 1] to pile <queue.Queue object at 0x7f9920107d90> of size 47
+    Turn end status: turn 47 p1: 49, p2: 3
+    Starting turn 48
+    4, 5, p2 wins [4, 5]
+    Adding pot [4, 5] to pile <queue.Queue object at 0x7f9920107f10> of size 2
+    Turn end status: turn 48 p1: 48, p2: 4
+    Starting turn 49
+    2, 1, p1 wins [2, 1]
+    Adding pot [2, 1] to pile <queue.Queue object at 0x7f9920107d90> of size 47
+    Turn end status: turn 49 p1: 49, p2: 3
+    Starting turn 50
+    10, 6, p1 wins [10, 6]
+    Adding pot [10, 6] to pile <queue.Queue object at 0x7f9920107d90> of size 48
+    Turn end status: turn 50 p1: 50, p2: 2
+    Starting turn 51
+    13, 5, p1 wins [13, 5]
+    Adding pot [13, 5] to pile <queue.Queue object at 0x7f9920107d90> of size 49
+    Turn end status: turn 51 p1: 51, p2: 1
     Starting turn 52
     13, 4, p1 wins [13, 4]
     Adding pot [13, 4] to pile <queue.Queue object at 0x7f9920107d90> of size 50
@@ -421,12 +627,25 @@ where $d$ is the deck size and the number of suits $n = 1$ guarantees that there
 
 An analytical solution might be a cool project for the [Annals of Improbable Research](https://www.improbable.com/).
 
-Hell, this might even be useful.  Who hasn't tried to fit a GLM to data
+Hell, this might even be useful.  Who (among the people still reading) hasn't tried to fit a GLM to data that looks left-skewed when you log it?
 
 
 ```python
 ! jupyter nbconvert --to markdown README.ipynb
 ```
+
+    [NbConvertApp] Converting notebook README.ipynb to markdown
+    [NbConvertApp] Support files will be in README_files/
+    [NbConvertApp] Making directory README_files
+    [NbConvertApp] Making directory README_files
+    [NbConvertApp] Making directory README_files
+    [NbConvertApp] Making directory README_files
+    [NbConvertApp] Making directory README_files
+    [NbConvertApp] Making directory README_files
+    [NbConvertApp] Making directory README_files
+    [NbConvertApp] Making directory README_files
+    [NbConvertApp] Writing 19259 bytes to README.md
+
 
 
 ```python
