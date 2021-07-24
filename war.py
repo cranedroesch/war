@@ -1,23 +1,20 @@
-import numpy as np
 import queue
+import random
 
 class War:
     def __init__(self, seed=None, verbose=False):
         self.verbose = verbose
         if seed is not None:
-            np.random.seed(seed)
-        self.deck = self.shuffle()
+            random.seed(seed)
+        self.deck = [i for i in range(1, 14) for j in range(4)]
+        self.shuffle()
         self.p1, self.p2 = self.deal()
         self.turns = 0
 
-    @staticmethod
-    def shuffle():
-        deck = []
-        for card in range(1, 14):
-            for i in range(4):
-                deck.append(card)
-        assert len(deck) == 52
-        return list(np.random.choice(deck, size=52, replace=False))
+    def shuffle(self):
+        random.shuffle(self.deck)
+        assert len(self.deck) == 52
+        assert len(set(self.deck)) == 13
 
     def deal(self):
         p1, p2 = queue.Queue(52), queue.Queue(52)
@@ -30,7 +27,7 @@ class War:
     def add_to_pile(self, pile, pot):
         if self.verbose:
             print(f"Adding pot {pot} to pile {pile} of size {pile.qsize()}")
-        pot = list(np.random.choice(a=pot, size=len(pot), replace=False))
+        random.shuffle(pot)
         for card in pot:
             pile.put(card, False)
 
