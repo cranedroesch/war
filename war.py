@@ -117,7 +117,7 @@ class War:
     def status_string(self):
         return f"turn {self.turns} p1: {self.p1.qsize()}, p2: {self.p2.qsize()}"
 
-    def game(self):
+    def play(self):
         while (not self.p1.empty()) & (not self.p2.empty()):
             self.turns += 1
             try:
@@ -139,5 +139,5 @@ if __name__ == "__main__":
     turn_counts = []
     for n in range(10):
         game = War(verbose=False)
-        turn_counts.append(game.game())
+        turn_counts.append(game.play())
     print(f"Turn counts: {turn_counts}")
