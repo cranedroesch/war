@@ -423,7 +423,7 @@ where $d$ is the deck size and the number of suits $n = 1$ guarantees that there
 An analytical solution might be a cool project for the [Annals of Improbable Research](https://www.improbable.com/).
 
 Hell, this might even be useful.  Who (among the people still reading) hasn't tried to fit a GLM to data that looks left-skewed when you log it?
-
+ 
 
 ```python
 ! jupyter nbconvert --to markdown README.ipynb
