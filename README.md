@@ -4,7 +4,7 @@ This is my son Oscar.  He is five.
 
 <img style="max-width: 500px; height: auto; " src="oscar.jpg"/>
 
-He recently learned how to play [war](https://en.wikipedia.org/wiki/War_(card_game)).  
+He recently learned how to play [war](https://en.wikipedia.org/wiki/War_(card_game)) (the card game).
 
 The game is *not quite* deterministic, and actually *not quite* a game.  It's not really a game because it involves no choice on the part of the players, and it's not really deterministic, because the ordering of the winners cards, added to the bottom of their pile, is not determined by any rule.  
 
