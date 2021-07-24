@@ -1,5 +1,6 @@
 import queue
 import random
+import multiprocessing as mp
 
 class War:
     def __init__(self, seed=None, verbose=False):
@@ -117,7 +118,7 @@ class War:
     def status_string(self):
         return f"turn {self.turns} p1: {self.p1.qsize()}, p2: {self.p2.qsize()}"
 
-    def game(self):
+    def play(self):
         while (not self.p1.empty()) & (not self.p2.empty()):
             self.turns += 1
             try:
@@ -135,10 +136,14 @@ class War:
         return self.turns
 
 
-if __name__ == "__main__":
-    turn_counts = []
-    for n in range(10):
-        game = War(verbose=False)
-        turn_counts.append(game.game())
-    print(f"Turn counts: {turn_counts}")
+def war_sim(seed):
+    game = War(seed=seed)
+    turn_count = game.play()
+    return turn_count
 
+
+if __name__ == "__main__":
+    pool = mp.Pool(mp.cpu_count())
+    counts = pool.map(war_sim, range(10))
+    pool.close()
+    print(counts)
