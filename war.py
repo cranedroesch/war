@@ -1,5 +1,6 @@
 import queue
 import random
+import multiprocessing as mp
 
 class War:
     def __init__(self, seed=None, verbose=False):
@@ -135,9 +136,14 @@ class War:
         return self.turns
 
 
+def war_sim(seed):
+    game = War(seed=seed)
+    turn_count = game.play()
+    return turn_count
+
+
 if __name__ == "__main__":
-    turn_counts = []
-    for n in range(10):
-        game = War(verbose=False)
-        turn_counts.append(game.play())
-    print(f"Turn counts: {turn_counts}")
+    pool = mp.Pool(mp.cpu_count())
+    counts = pool.map(war_sim, range(10))
+    pool.close()
+    print(counts)
