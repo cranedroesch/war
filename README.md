@@ -42,7 +42,9 @@ game.play()
     Adding pot [13, 10] to pile <queue.Queue object at 0x7f9920107d90> of size 26
     Turn end status: turn 2 p1: 28, p2: 24
     Starting turn 3
-    <<snip>>
+    
+    snip
+
     Starting turn 29
     WAR!!! 13, 13, pot [13, 13]
     WAR! Pot: [13, 13]
@@ -59,7 +61,9 @@ game.play()
     turn 29 p1: 39, p2: 13
     Turn end status: turn 29 p1: 39, p2: 13
     Starting turn 30
-    <<snip>>
+    
+    snip
+    
     Starting turn 52
     13, 4, p1 wins [13, 4]
     Adding pot [13, 4] to pile <queue.Queue object at 0x7f9920107d90> of size 50
