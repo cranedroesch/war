@@ -634,9 +634,9 @@ cx1.plot(np.log10(grid), 10**(dist.prob(grid)), color = 'orange')
 
 ### What have we learned?
 
-We've learned that the turn counts in the game of war follows some distribution that isn't poisson, negative binomial, or gamma.  It's slightly left-skewed in log space, so it's not lognormal, that that probably wouldn't be a bad approximation.
+We've learned that the turn counts in the game of war follows some distribution that isn't poisson, negative binomial, or gamma.  It's slightly left-skewed in log space, so it's not lognormal, though that probably wouldn't be a bad approximation.
 
-What would the analytical distribution look like?  A mess, clearly.  It'd have to be the summation of the product of a bunch of probabilities player 1's card is greater than player 2's card, multiplied by the probability that either player has one card left, which itself would be, conditional on all preceeding terms.  And that's not thinking through what happens when there is a war.  You'd want to start with the simplest case:
+What would the analytical distribution look like?  A mess, clearly.  It'd have to be the summation of the product of a bunch of probabilities player 1's card is greater than player 2's card, multiplied by the probability that either player has one card left, which itself would be conditional on all preceeding terms.  And that's not thinking through what happens when there is a war.  You'd want to start with the simplest case:
 
 $$
 W(d = 2, n = 1)
@@ -663,7 +663,7 @@ Hell, this might even be useful.  Who (among the people still reading) hasn't tr
     [NbConvertApp] Making directory README_files
     [NbConvertApp] Making directory README_files
     [NbConvertApp] Making directory README_files
-    [NbConvertApp] Writing 19777 bytes to README.md
+    [NbConvertApp] Writing 20617 bytes to README.md
 
 
 
